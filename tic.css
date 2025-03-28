@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vmin;
+    /* gap: 10px; */
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: rgb(211, 251, 251);
+}
+
+#reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(90, 81, 81);
+    color: whitesmoke;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.msg-container {
+   height: 100vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 2rem;
+
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(90, 81, 81);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+#msg {
+    color: rgb(250, 250, 250);
+    font-size: 8vmin;
+}
+
+.hide {
+    display: none;
+}
+
+/* Realme Phone Portrait */
+/* @media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 720px) 
+  and (-webkit-min-device-pixel-ratio: 2) { */
+
+  /* Your styles for Realme phones in portrait mode go here */
+
+/* } */
+
+/* Realme Phone Landscape */
+/* @media only screen 
+  and (min-device-width: 720px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 2) { */
+
+  /* Your styles for Realme phones in landscape mode go here */
+/* 
+} */
